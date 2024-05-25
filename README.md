@@ -66,6 +66,6 @@ A API AUTO REVISÃO é uma solução para gerenciar a manutenção básica de ve
 
 ## Endpoints Principais
 
-#Autenticação
-- **POST /auth/register: Registrar um novo usuário
-- **POST /auth/login: Login de usuário e obtenção de token JWT
+Autenticação
+- POST /auth/register: Registrar um novo usuário
+- POST /auth/login: Login de usuário e obtenção de token JWT
