@@ -1,8 +1,8 @@
-# Vehicle Maintenance API
+# API AUTO REVISÃO
 
 ## Descrição
 
-A Vehicle Maintenance API é uma solução para gerenciar a manutenção básica de veículos. A API permite controlar trocas de óleo, abastecimentos e fornecer alertas para vencimento da CNH e próximas manutenções. Ideal para proprietários de veículos e empresas de gestão de frotas.
+A API AUTO REVISÃO é uma solução para gerenciar a manutenção básica de veículos. A API permite controlar trocas de óleo, abastecimentos e fornecer alertas para vencimento da CNH e próximas manutenções. Ideal para proprietários de veículos e empresas de gestão de frotas.
 
 ## Funcionalidades
 
@@ -32,5 +32,5 @@ A Vehicle Maintenance API é uma solução para gerenciar a manutenção básica
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/vehicle-maintenance-api.git
-   cd vehicle-maintenance-api
+   git clone https://github.com/MayconMoreira/api-auto-revisao.git
+   cd api-auto-revisao
