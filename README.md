@@ -50,7 +50,7 @@ A API AUTO REVISÃO é uma solução para gerenciar a manutenção básica de ve
 
    ```bash
    PORT=8000
-   MONGODB_URI=mongodb://localhost:27017/vehicle-maintenance
+   MONGODB_URI=mongodb://localhost:27017/auto-revisao
    MYSQL_URI=mysql://usuario:senha@localhost:3306/auto-revisao
    REDIS_URL=redis://localhost:6379/0
 
