@@ -34,3 +34,38 @@ A API AUTO REVISÃO é uma solução para gerenciar a manutenção básica de ve
    ```bash
    git clone https://github.com/MayconMoreira/api-auto-revisao.git
    cd api-auto-revisao
+
+2. Crie e ative um ambiente virtual:
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+
+3. Instale as dependências:
+   
+   ```bash
+   pip install -r requirements.txt
+
+4. Configure as variáveis de ambiente:
+
+   ```bash
+   PORT=8000
+   MONGODB_URI=mongodb://localhost:27017/vehicle-maintenance
+   MYSQL_URI=mysql://usuario:senha@localhost:3306/auto-revisao
+   REDIS_URL=redis://localhost:6379/0
+
+5. Inicie o servidor:
+
+   ```bash
+   uvicorn app.main:app --reload
+
+6. Acesse a documentação da API no navegador:
+
+   ```bash
+   http://localhost:8000/docs
+
+## Endpoints Principais
+
+#Autenticação
+- **POST /auth/register: Registrar um novo usuário
+- **POST /auth/login: Login de usuário e obtenção de token JWT
