@@ -6,8 +6,8 @@ A API AUTO REVISÃO é uma solução para gerenciar a manutenção básica de ve
 
 ## Funcionalidades
 
-- **Troca de Óleo:** Registre e acompanhe trocas de óleo com datas e quilometragem.
-- **Abastecimentos:** Registre abastecimentos com detalhes como data, quantidade e preço.
+- **Troca de Óleo:** Registre e acompanhe através de notificações quando necessário a trocas de óleo com datas e quilometragem.
+- **Abastecimentos:** Registre abastecimentos com detalhes como data, quantidade e preço, para fazer a comparação do melhor custo beneficio entre abastecer álcool ou gasolina.
 - **Alertas de Vencimento da CNH:** Receba notificações sobre a proximidade do vencimento da CNH.
 - **Próximas Manutenções:** Notificações sobre manutenções futuras com base na quilometragem e/ou data.
 
