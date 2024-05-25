@@ -68,4 +68,22 @@ A API AUTO REVISÃO é uma solução para gerenciar a manutenção básica de ve
 
 Autenticação
 - POST /auth/register: Registrar um novo usuário
-- POST /auth/login: Login de usuário e obtenção de token JWT
+- POST /auth/login: Login de usuário e obtenção de token
+
+Troca de Óleo
+- POST /oil-change: Registrar uma troca de óleo
+- GET /oil-change: Listar todas as trocas de óleo
+- GET /oil-change/{id}: Obter detalhes de uma troca de óleo específica
+- PUT /oil-change/{id}: Atualizar uma troca de óleo
+- DELETE /oil-change/{id}: Remover uma troca de óleo
+
+Abastecimentos
+- POST /fuel: Registrar um abastecimento
+- GET /fuel: Listar todos os abastecimentos
+- GET /fuel/{id}: Obter detalhes de um abastecimento específico
+- PUT /fuel/{id}: Atualizar um abastecimento
+- DELETE /fuel/{id}: Remover um abastecimento
+
+Alertas
+- GET /alerts/license-expiry: Obter alertas de vencimento da CNH
+- GET /alerts/maintenance: Obter alertas de próximas manutenções
